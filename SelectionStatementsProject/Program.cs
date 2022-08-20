@@ -9,6 +9,7 @@ namespace SelectionStatementsProject
             var random = new Random();
             var randomNumber = random.Next();
 
+            Console.WriteLine("Try to guess what number I'm thinking of!");
             var userInput = int.Parse(Console.ReadLine());
 
             if (userInput > randomNumber)
